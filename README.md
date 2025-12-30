@@ -8,8 +8,6 @@ A small, fun Star Wars app built in Kotlin — meant to practice networking, lis
 - Lets you tap items to see more details
 - Handles loading / errors without drama
 
-Nothing huge or over-engineered — just a solid practice project.
-
 ## Tech behind the scenes
 - **Kotlin** (of course)
 - **Android Jetpack** bits
@@ -17,6 +15,7 @@ Nothing huge or over-engineered — just a solid practice project.
 - **ViewModel + LiveData** for state
 - **Retrofit** for network calls
 - **Coroutines** for async work
+
 
 ## Getting started
 1. Clone the repo
@@ -30,14 +29,3 @@ _No API keys needed._
 Everything comes from the public Star Wars API:
 > https://swapi.dev/
 
-Big thanks to them for keeping it open and simple.
-
-## Why I built it
-Practicing network requests + architecture patterns is way easier when the data is actually fun. Star Wars = instant motivation.
-
-## Want to tweak it?
-Feel free to fork, experiment, or open an issue. Ideas:
-- Add search
-- Add offline caching
-- Try pagination
-- Fancy animations
